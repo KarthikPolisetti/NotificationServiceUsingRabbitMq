@@ -1,4 +1,4 @@
-Notification Service
+**Notification Service**
 A Spring Boot microservice that accepts order creation requests, persists orders to PostgreSQL, and publishes order events to RabbitMQ. A RabbitMQ listener consumes those events and logs notifications.
 
 Features
